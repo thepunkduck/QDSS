@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
 using System.Threading.Tasks;
 
 namespace QDSS
 {
-    [Obfuscation(Feature = "renaming,string encryption", Exclude = false)]
     public class WindowedSincReSampler
     {
 
